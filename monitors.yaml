@@ -1,4 +1,4 @@
-monitors:
+application:
   monitors:
     - name: temperature
       path: /home/plc/thermometer_monitor
