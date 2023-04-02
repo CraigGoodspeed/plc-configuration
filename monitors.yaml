@@ -1,0 +1,10 @@
+monitors:
+  - name: temperature
+    path: /home/plc/thermometer_monitor
+    reload-config-path: /reload/temperature
+    config:
+      temperature: 25
+      kafka-endpoint: 192.168.0.106:9092
+      kafka-topic: temperature-feed
+      led-input: 192.168.0.117:8081/led-input
+
